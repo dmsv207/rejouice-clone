@@ -121,9 +121,9 @@ hr{
     font-weight: 100;
 }
 #content h3{
-    line-height: 80px;
-    font-weight: 200;
-    font-size: 4vw;
+    line-height: 100px;
+    font-weight: 290;
+    font-size: 3.9vw;
     padding-left: 180px;
     text-transform: capitalize;
 }
@@ -132,11 +132,11 @@ hr{
     width: 100%;
     position: relative;
     background-color: #FAF8F3;
-    padding: 3vw;
+    padding: 2vw;
 }
 #page3top{
     text-align: center;
-    padding-top: 15vh;
+    padding-top: 10vh;
 }
 #page3top h4{
     font-size: 1.5vw;
@@ -161,7 +161,7 @@ hr{
     width: 100%;
     gap: 20px;
     display: flex;
-    margin-top: 17vw;
+    margin-top: 10vw;
     
 }
 #page3elements .box{
