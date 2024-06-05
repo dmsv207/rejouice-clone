@@ -285,3 +285,33 @@ hr{
     color: #FFFCF1;
     text-align: center;
 }
+
+@media (max-width: 600px){
+    #cursor{
+        height: 0vw;
+        width: 0vw;
+        background-color: #ff5f38;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        transform: translate(-50%,-50%);
+    }
+    #cursor h5{
+        font-size: 0vw;
+    }
+    nav h3{
+        font-size: 4.5vw;
+    }
+    nav h4{
+        font-size: 4vw;
+    }
+    #page-1content h1{
+        font-size: 15vw;
+        line-height: 20vw;
+        font-weight: 100;
+        font-family: font1;
+    }
+}
