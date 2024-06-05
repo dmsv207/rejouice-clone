@@ -31,13 +31,13 @@ page1Content.addEventListener("mouseleave", function() {
 
 cursoreffect()
 
-// function smoothscrolling(){
-//     const scroll = new LocomotiveScroll({
-//         el: document.querySelector('#main'),
-//         smooth: true
-//     });
-// }
-// smoothscrolling()
+function smoothscrolling(){
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('#main'),
+        smooth: true
+    });
+}
+smoothscrolling()
 
 
 
