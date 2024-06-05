@@ -31,40 +31,13 @@ page1Content.addEventListener("mouseleave", function() {
 
 cursoreffect()
 
-
-function page2animation(){
-    document.addEventListener('DOMContentLoaded', function() {
-        // Select all elements with the class 'elem'
-        const elements = document.querySelectorAll('.elem');
-      
-        // Define the options for Typed.js
-        const typeSpeed = 50; // Typing speed in milliseconds
-        const startDelay = 1000; // Delay before typing starts in milliseconds
-        const staggerDelay = 500; // Delay between each element's typing animation start in milliseconds
-      
-        // Loop through each element and initialize Typed.js with a staggered delay
-        elements.forEach((element, index) => {
-          // Capture the existing content of the element
-          const existingContent = element.innerHTML;
-      
-          // Clear the content of the element
-          element.innerHTML = '';
-      
-          // Define the options for Typed.js, using the captured content
-          const options = {
-            strings: [existingContent],
-            typeSpeed: typeSpeed,
-            startDelay: startDelay + (index * staggerDelay) // Add stagger delay to start delay
-          };
-      
-          // Initialize Typed.js on the element
-          new Typed(element, options);
-        });
-      });
+function smoothscrolling(){
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('#main'),
+        smooth: true
+    });
 }
-page2animation()
-
-  
+smoothscrolling()
 
 
 

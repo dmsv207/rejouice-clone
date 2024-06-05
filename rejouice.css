@@ -1,3 +1,11 @@
+@font-face {
+    font-family: font1;
+    src: url(./MagilioRegular-Yzv2O.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./aptos-black.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,10 +19,13 @@ html,body{
 body::-webkit-scrollbar{
     scrollbar-width: none;
 }
+*::selection{
+    color: black;
+    background-color: #FFFCF1;
+}
 #page-1{
     height: 100vh;
     width: 100vw;
-    /* background-color: blueviolet; */
     position: relative;
 }
 #cursor{
@@ -43,7 +54,6 @@ body::-webkit-scrollbar{
 #page-1content{
     height: 100%;
     width: 100%;
-    /* background-color: black; */
     position: relative;
     z-index: 10;
     color: whitesmoke;
@@ -71,6 +81,7 @@ nav h4{
     font-size: 26vw;
     line-height: 30vw;
     font-weight: 100;
+    font-family: font1;
 }
 #page-2{
     height: 100vh;
@@ -85,7 +96,7 @@ nav h4{
     gap: 40vw;
     padding-left: 70px;
     padding-top: 110px;
-    /* background-color: green; */
+    font-family: font2;
 }
 #top h3{
     font-size: 2.1vw;
@@ -106,7 +117,8 @@ hr{
 #content{
     height: 80%;
     width: 100%;
-    /* background-color: red; */
+    font-family: font2;
+    font-weight: 100;
 }
 #content h3{
     line-height: 100px;
@@ -123,7 +135,6 @@ hr{
     padding: 3vw;
 }
 #page3top{
-    /* background-color: red; */
     text-align: center;
     padding-top: 15vh;
 }
@@ -148,10 +159,9 @@ hr{
 #page3elements{
     height: 75vh;
     width: 100%;
-    /* background-color: rebeccapurple; */
     gap: 20px;
     display: flex;
-    margin-top: 3vw;
+    margin-top: 17vw;
     
 }
 #page3elements .box{
@@ -205,4 +215,73 @@ hr{
     font-weight: 200;
     text-transform: capitalize;
     
+}
+#footer{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #0E0E0E;
+}
+#footer #top{
+    height: 38vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#footer .left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+#footer #top h1{
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    height: 10vh;
+    color: #D6D4CA;
+    width: 18vw;
+    text-align: center;
+    border-radius: 25px;
+}
+#footer #top #seat{
+    height: 10vh;
+    width: 12vw;
+    font-size: 1.5vw;
+    color: #D6D4CA;
+    border: 1px solid  #D6D4CA;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    text-align: center;
+}
+.right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: auto;
+    line-height: 52px;
+}
+.menu{
+    font-size: 1.2vw;
+    text-transform: capitalize;
+    text-align: right;
+    margin-right: 180px;
+    color: #D6D4CA;
+}
+#footer #bottom{
+    height: 62vh;
+    width: 100%;
+}
+#footer #bottom h1{
+    font-size: 26vw;
+    line-height: 30vw;
+    font-weight: 100;
+    color: #FFFCF1;
+    text-align: center;
 }
