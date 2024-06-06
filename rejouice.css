@@ -307,14 +307,14 @@ hr{
 
 @media (max-width: 600px){
     #page-1{
-        height: 50vh;
-        width: 70vw;
+        height: 35vh;
+        width: 60vw;
         position: relative;
     }
     #cursor{
         height: 0vw;
         width: 0vw;
-        
+        display: none;
         background-color: #ff5f38;
         border-radius: 50%;
         position: fixed;
@@ -328,34 +328,34 @@ hr{
         font-size: 0vw;
     }
     nav h3{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     nav h4{
-        font-size: 4vw;
+        font-size: 5vw;
     }
     #page-1content h1{
-        font-size: 15vw;
+        font-size: 16vw;
         line-height: 20vw;
         font-weight: 100;
         font-family: font1;
     }
     #page-2{
-        height: 40vh;
-        width: 70vw;
+        height: 30vh;
+        width: 60vw;
         background-color: #FAF8F3;
         position: relative;
     }
     #top{
-        height: 20%;
+        height: 15%;
         width: 100%;
         display: flex;
-        gap: 20vw;
+        gap: 10vw;
         padding-left: 30px;
-        padding-top: 70px;
+        padding-top: 50px;
         font-family: font2;
     }
     #top h3{
-        font-size: 1.4vw;
+        font-size: 1.3vw;
         text-transform: capitalize;
     }
     hr{
@@ -374,7 +374,7 @@ hr{
         line-height: 19px;
         font-weight: 290;
         font-size: 2vw;
-        padding-left: 40px;
+        padding-left: 30px;
         text-transform: capitalize;
     }
     #page3{
