@@ -286,16 +286,35 @@ hr{
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px){
     #page-1{
-        height: 60vh;
+        height: 50vh;
         width: 70vw;
         position: relative;
     }
     #cursor{
         height: 0vw;
         width: 0vw;
-        /* display: none; */
+        
         background-color: #ff5f38;
         border-radius: 50%;
         position: fixed;
@@ -354,10 +373,67 @@ hr{
     #content h3{
         line-height: 19px;
         font-weight: 290;
-        font-size: 2.8vw;
+        font-size: 2vw;
         padding-left: 40px;
         text-transform: capitalize;
     }
-
+    #page3{
+        min-height: 40vh;
+        width: 60vw;
+    }
+    #page3top{
+        text-align: left;
+        padding-top: 5vh;
+    }
+    #page3top h4{
+        font-size: 1vw;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 2vw;
+        margin-left: 20vw;
+    }
+    #page3top h2{
+        font-size: 2.5vw;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-left: 20vw;
+    }
+    #page3top h4 span{
+        font-size: 0.8vw;
+        background-color: black;
+        color: #FAF8F3;
+        padding: 4px 10px;
+        margin-left: 2vw;
+        border-radius: 15px;
+    }
+    #page3elements{
+        height: 50vh;
+        width: 80%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vw;
+        
+    }
+    #page3elements .box{
+        position: relative;
+        height: 100%;
+        width: 33%;
+        background-color: beige;
+    }
+    #page3elements .box video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    #page3elements .box img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
     
 }
