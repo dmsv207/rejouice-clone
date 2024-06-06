@@ -305,10 +305,10 @@ hr{
 
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
     #page-1{
-        height: 35vh;
-        width: 60vw;
+        height: 100vh;
+        width: 100vw;
         position: relative;
     }
     #cursor{
@@ -334,14 +334,14 @@ hr{
         font-size: 5vw;
     }
     #page-1content h1{
-        font-size: 16vw;
+        font-size: 22vw;
         line-height: 20vw;
         font-weight: 100;
         font-family: font1;
     }
     #page-2{
-        height: 30vh;
-        width: 60vw;
+        height: 100vh;
+        width: 100vw;
         background-color: #FAF8F3;
         position: relative;
     }
@@ -349,17 +349,17 @@ hr{
         height: 15%;
         width: 100%;
         display: flex;
-        gap: 10vw;
+        gap: 50vw;
         padding-left: 30px;
         padding-top: 50px;
         font-family: font2;
     }
     #top h3{
-        font-size: 1.3vw;
+        font-size: 2.5vw;
         text-transform: capitalize;
     }
     hr{
-        border: solid #0E0E0E 1px;
+       border: solid #0E0E0E 1px;
        margin-top: 30px;
        margin-left: 30px;
        margin-right: 30px;
@@ -371,35 +371,35 @@ hr{
         font-weight: 100;
     }
     #content h3{
-        line-height: 19px;
+        line-height: 52px;
         font-weight: 290;
-        font-size: 2vw;
+        font-size: 5vw;
         padding-left: 30px;
         text-transform: capitalize;
     }
     #page3{
-        min-height: 40vh;
-        width: 60vw;
+        height: 100vh;
+        width: 100vw;
     }
     #page3top{
         text-align: left;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
     #page3top h4{
-        font-size: 1vw;
+        font-size: 2.2vw;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 2vw;
         margin-left: 20vw;
     }
     #page3top h2{
-        font-size: 2.5vw;
+        font-size: 3.9vw;
         text-transform: capitalize;
         font-weight: 500;
         margin-left: 20vw;
     }
     #page3top h4 span{
-        font-size: 0.8vw;
+        font-size: 1.8vw;
         background-color: black;
         color: #FAF8F3;
         padding: 4px 10px;
@@ -407,9 +407,9 @@ hr{
         border-radius: 15px;
     }
     #page3elements{
-        height: 50vh;
+        height: 80vh;
         width: 80%;
-        gap: 20px;
+        gap: 30px;
         display: flex;
         flex-direction: column;
         margin-top: 5vw;
