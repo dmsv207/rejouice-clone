@@ -307,7 +307,7 @@ hr{
 
 @media (max-width: 480px){
     #page-1{
-        height: 80vh;
+        height: 95vh;
         width: 100vw;
         position: relative;
     }
@@ -328,10 +328,10 @@ hr{
         font-size: 0vw;
     }
     nav h3{
-        font-size: 7vw;
+        font-size: 4vw;
     }
     nav h4{
-        font-size: 7vw;
+        font-size: 3vw;
     }
     #page-1content h1{
         font-size: 22vw;
@@ -340,7 +340,7 @@ hr{
         font-family: font1;
     }
     #page-2{
-        height: 60vh;
+        height:80vh;
         width: 100vw;
         background-color: #FAF8F3;
         position: relative;
@@ -351,7 +351,7 @@ hr{
         display: flex;
         gap: 40vw;
         padding-left: 5vw;
-        padding-top: 5vw;
+        padding-top: 7vw;
         font-family: font2;
     }
     #top h3{
@@ -374,11 +374,12 @@ hr{
         line-height: 52px;
         font-weight: 290;
         font-size: 5vw;
+        font-family: font2;
         padding-left: 30px;
         text-transform: capitalize;
     }
     #page3{
-        height: 80vh;
+        min-height: 100vh;
         width: 100vw;
     }
     #page3top{
@@ -386,20 +387,20 @@ hr{
         padding-top: 1vh;
     }
     #page3top h4{
-        font-size: 2.3vw;
+        font-size: 3.5vw;
         font-weight: 500;
         text-transform: uppercase;
         margin-bottom: 2vw;
-        margin-left: 20vw;
+        margin-left: 24vw;
     }
     #page3top h2{
-        font-size: 3.9vw;
+        font-size: 5vw;
         text-transform: capitalize;
         font-weight: 500;
-        margin-left: 18vw;
+        margin-left: 24vw;
     }
     #page3top h4 span{
-        font-size: 1.8vw;
+        font-size: 2vw;
         background-color: black;
         color: #FAF8F3;
         padding: 4px 10px;
@@ -407,15 +408,31 @@ hr{
         border-radius: 15px;
     }
     #page3elements{
-        height: 80vh;
-        width: 80%;
+        height: 110vh;
+        /* background-color: #ff5f38; */
+        width: 100%;
         gap: 5vh;
         display: flex;
         flex-direction: column;
-        margin-top: 10vw;
+        margin-top: 5vw;
         
     }
-    #page3elements .box{
+    #page3elements #box1{
+        width: 40vw;
+        height: 33vh;
+        margin-left: 25vw;
+    }
+    #page3elements #box2{
+        width: 40vw;
+        height: 33vh;
+        margin-left: 25vw;
+    }
+    #page3elements #box3{
+        width: 40vw;
+        height: 33vh;
+        margin-left: 25vw;
+    }
+    /* #page3elements .box{
         position: relative;
         height: 100%;
         width: 33%;
@@ -433,7 +450,7 @@ hr{
         position: absolute;
         top: 0;
         left: 0;
-    }
+    } */
     
     
 }
