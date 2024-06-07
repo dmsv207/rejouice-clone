@@ -466,7 +466,7 @@ a{
 
 
     #footer{
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         background-color: #0E0E0E;
     }
@@ -485,18 +485,18 @@ a{
         gap: 2px;
     }
     #footer #top h1{
-        font-size: 4vw;
+        font-size: 4.5vw;
         text-transform: capitalize;
         height: 10vh;
         color: #D6D4CA;
-        width: 18vw;
+        width: 20vw;
         text-align: center;
         border-radius: 25px;
         margin-top: 7vh;
     }
     #footer #top #seat{
         height: 8vh;
-        width: 29vw;
+        width: 33vw;
         font-size:3vw;
         color: #D6D4CA;
         border: 1px solid  #D6D4CA;
@@ -517,10 +517,10 @@ a{
         text-align: right;
         line-height: 5px;
         margin-top: 7vh;
-        margin-left: 12vw;
+        margin-left: 10vw;
     }
     a{
-        font-size: 3vw;
+        font-size: 5vw;
         text-transform: capitalize;
         text-align: right;
         margin-bottom: 2px;
@@ -528,11 +528,11 @@ a{
         color: #D6D4CA;
     }
     #footer #bottom{
-        height: 20vh;
+        height: 10vh;
         width: 100%;
         /* background-color: rebeccapurple; */
         padding-top: 5vh;
-        margin-top: 30vh;
+        margin-top: 40vh;
     }
     #footer #bottom h1{
         font-size: 28vw;
